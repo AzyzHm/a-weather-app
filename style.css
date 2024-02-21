@@ -1,8 +1,8 @@
 body{
-    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)), url('background/bg.jpg');
+    background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)), url('pics/bg.jpg');
 }
 #container {
-    background-image: url('background/bg.jpg');
+    background-image: url('pics/bg.jpg');
     background-size: cover;
     margin: 100px auto;
     padding: 20px;
