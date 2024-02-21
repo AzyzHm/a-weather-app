@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sky Weather</title>
+</head>
+<body>
+    <div id="container">
+        <div id="title">
+            <h1>Sky Weather</h1>
+        </div>
+        <div id="box">
+            <input type="text" id="search-bar" placeholder="Enter your city name">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="info">
+            <table>
+                <tr>
+                    <td>country</td>
+                    <td id="country"></td>
+                </tr>
+                <tr>
+                    <td>Temperature</td>
+                    <td id="temp"></td>
+                </tr>
+                <tr>
+                    <td>Weather</td>
+                    <td id="weather"></td>
+                </tr>
+                <tr>
+                    <td>Wind Speed</td>
+                    <td id="wind-speed"></td>
+                </tr>
+                <tr>
+                    <td>Humidity</td>
+                    <td id="humidity"></td>
+                </tr>
+                <tr>
+                    <td>Pressure</td>
+                    <td id="pressure"></td>
+                </tr>
+                <tr>
+                    <td>Visibility</td>
+                    <td id="visibility"></td>
+                </tr>
+                <tr>
+                    <td>Sunrise</td>
+                    <td id="sunrise"></td>
+                </tr>
+                <tr>
+                    <td>Sunset</td>
+                    <td id="sunset"></td>
+                </tr>
+                <tr>
+                    <td>Timezone</td>
+                    <td id="timezone"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="not-found">
+            <img src="not-found.png" alt="not-found.png" id="image">
+            <h3 id="caption">City not found!</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
