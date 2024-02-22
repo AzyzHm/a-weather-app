@@ -15,7 +15,7 @@ const notFound = document.getElementById('not-found');
 const info = document.getElementById('info');
 
 searchButton.addEventListener('click', async () => {
-    const apiKey = 'your-api-key';
+    const apiKey = "YOUR_API_KEY";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${givenCity.value}&appid=${apiKey}`;
 
     if (givenCity.value === "") {
