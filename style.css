@@ -100,11 +100,11 @@ td:hover {
     color: black;
 }
 @media (max-width: 768px) {
-    #search-bar, #search-button {
-        width: 100%;
+    #search-bar{
+        width: 80%;
     }
-
     #search-button {
         margin-top: 10px;
+        width: 100px;
     }
 }
