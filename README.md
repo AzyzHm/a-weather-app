@@ -4,21 +4,12 @@ Sky Weather is a simple and intuitive weather application that provides real-tim
 
 ## Table of Contents
 
-- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Project Status](#Project-Status)
 
-
-## Features
-
-- Display current weather conditions
-- 5-day weather forecast
-- Temperature in Celsius and Fahrenheit
-- Dynamic background based on weather conditions
-- Responsive design for various devices
 
 ## Technologies Used
 
