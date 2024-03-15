@@ -23,8 +23,8 @@ Sky Weather is a simple and intuitive weather application that provides real-tim
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/sky-weather.git
-cd sky-weather
+git clone https://github.com/AzyzHm/a-weather-app.git
+cd a-weather-app
 ```
 ## Usage
 
